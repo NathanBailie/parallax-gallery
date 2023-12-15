@@ -1,5 +1,6 @@
 "use strict"
 
+// sliders
 let sliderMain = new Swiper('.slider_main', {
     freeMode: true,
     centeredSlides: true,
@@ -25,3 +26,26 @@ let sliderBg = new Swiper('.slider_bg', {
 });
 
 sliderMain.controller.control = sliderBg;
+
+// toggling active class
+let items = document.querySelectorAll('.slider__item');
+
+for (let item of items) {
+    item.addEventListener('click', () => {
+        let active = item.classList.contains('active');
+
+        deleteActiveClass(items);
+
+        if (active) {
+            item.classList.remove('active');
+        } else {
+            item.classList.add('active');
+        }
+    })
+}
+
+function deleteActiveClass(array) {
+    for (let elem of array) {
+        elem.classList.remove('active');
+    }
+}
