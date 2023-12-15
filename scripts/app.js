@@ -49,3 +49,11 @@ function deleteActiveClass(array) {
         elem.classList.remove('active');
     }
 }
+
+// description
+let descr = document.querySelector('.description');
+sliderMain.on('slideChange', (e) => {
+    sliderMain.activeIndex > 0
+        ? descr.classList.add('hidden')
+        : descr.classList.remove('hidden');
+});
