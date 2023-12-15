@@ -17,3 +17,11 @@ let sliderMain = new Swiper('.slider_main', {
     }
 });
 
+let sliderBg = new Swiper('.slider_bg', {
+    centeredSlides: true,
+    parallax: true,
+    spaceBetween: 60,
+    slidesPerView: 3.5
+});
+
+sliderMain.controller.control = sliderBg;
