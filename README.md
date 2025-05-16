@@ -1,14 +1,36 @@
-# Miami Collection
+# Parallax galery
 
-## Description
-I found the idea for this project in one of the tutorials on [WebDesign Master](https://www.youtube.com/watch?v=TX1HZnhJLGM) YouTube channel. This is a site with beautiful animations. There is an animation of disappearance and appearance of the title on the trigger, the card increases by clicking on it, when scrolling the cards have a parallax effect.
+### 🗨️ Description
 
-### Here you can try this project on the website - [Miami Collection](https://nathanbailie.github.io/Miami-Collection/ "Click to visit")
+This is an interactive parallax gallery project featuring a unique rotating layout and stunning visual effects. The gallery showcases a collection of images with smooth parallax animations as you scroll. Each image can be expanded with a click, creating an immersive viewing experience. The project combines creative CSS transforms with JavaScript interactions to achieve an engaging 3D-like effect, where foreground and background elements move at different speeds, adding depth and dynamism to the presentation.
 
-## Screenshots
-<img src="https://github.com/NathanBailie/Miami-Collection/raw/main/screenshots/screenshot.png" width="700" />
+This project was created following a tutorial from the [WebDesign Master](https://www.youtube.com/watch?v=GLbI7BGdQ3o) YouTube channel.
 
-## Technologies
-* Html
-* CSS (css-variables)
-* JavaScript (working with DOM, swiper js)
+---
+
+### 🛠️ Tech Stack
+
+- Html
+- CSS (css-variables)
+- JavaScript (working with DOM, swiper js)
+- Gulp (task automation, SCSS compilation, file optimization)
+
+---
+
+### 📱 Project website
+
+#### You can watch this project here - [Click!](https://nathanbailie.github.io/parallax-gallery/ 'Click to visit')
+
+---
+
+### 🚀 Project launch
+
+- `npm install` - install dependencies
+- `npm run dev`- lunch the project in dev mode
+- `npm run build` - performs the final build of the project
+
+---
+
+### 🏞️ Screenshots
+
+<img src="https://github.com/NathanBailie/parallax-gallery/raw/main/src/assets/screenshots/sc1.png" width="700" />
